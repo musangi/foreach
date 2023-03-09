@@ -78,7 +78,7 @@ include "conn.php";
         <script type="text/javascript">
             $(document).ready(function(){
                 // Check/Uncheck ALl
-                $('#checkAll').change(function(){
+                $('#checkall').change(function(){
                     if($(this).is(':checked')){
                         $('input[name="update[]"]').prop('checked',true);
                     }else{
